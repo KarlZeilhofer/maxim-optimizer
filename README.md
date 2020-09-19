@@ -6,7 +6,7 @@ It's inputs are connected to 3 arrays of 20 to 24 solar cells, they have to be i
 
 The outputs of the 3 step down controllers are connected in series. 
 
-This kind of optimizer maximizes the output power for each cell array individually, and words perfectly if some solar modules are shaded partially in a string of many modules. 
+This kind of optimizer maximizes the output power for each cell array individually, and works perfectly if some solar modules are shaded partially in a string of many modules. 
 
 ![2D rendering](rendering/rendering-2d.png)
 
