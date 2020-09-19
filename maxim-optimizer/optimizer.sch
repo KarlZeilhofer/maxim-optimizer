@@ -1,0 +1,524 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L maxim-optimizer:MAX20801 U201
+U 1 1 5F65C68C
+P 5500 3750
+AR Path="/5F65C4D9/5F65C68C" Ref="U201"  Part="1" 
+AR Path="/5F69D945/5F65C68C" Ref="U301"  Part="1" 
+AR Path="/5F69D9BA/5F65C68C" Ref="U401"  Part="1" 
+F 0 "U301" H 5100 4000 50  0000 L CNN
+F 1 "MAX20801" H 5900 3300 50  0000 L CNN
+F 2 "maxim-optimizer:MAX20801" H 6050 2700 50  0001 C CNN
+F 3 "" H 6050 2700 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C212
+U 1 1 5F65CF26
+P 4700 4200
+AR Path="/5F65C4D9/5F65CF26" Ref="C212"  Part="1" 
+AR Path="/5F69D945/5F65CF26" Ref="C312"  Part="1" 
+AR Path="/5F69D9BA/5F65CF26" Ref="C412"  Part="1" 
+F 0 "C312" H 4815 4238 40  0000 L CNN
+F 1 "1u/6V3" H 4815 4162 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 4850 4200 30  0001 C CNN
+F 3 "" H 4700 4300 60  0001 C CNN
+	1    4700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C213
+U 1 1 5F65D08A
+P 6200 3400
+AR Path="/5F65C4D9/5F65D08A" Ref="C213"  Part="1" 
+AR Path="/5F69D945/5F65D08A" Ref="C313"  Part="1" 
+AR Path="/5F69D9BA/5F65D08A" Ref="C413"  Part="1" 
+F 0 "C313" H 6315 3438 40  0000 L CNN
+F 1 "220n/6V3" H 6315 3362 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 6350 3400 30  0001 C CNN
+F 3 "" H 6200 3500 60  0001 C CNN
+	1    6200 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3900 4700 3900
+Wire Wire Line
+	4700 3900 4700 4050
+Wire Wire Line
+	1950 4650 2300 4650
+Text HLabel 1950 4650 0    50   UnSpc ~ 0
+PV-
+Text HLabel 1950 3750 0    50   UnSpc ~ 0
+PV+
+Text HLabel 7850 3750 2    50   UnSpc ~ 0
+OUT+
+Text HLabel 7850 4650 2    50   UnSpc ~ 0
+OUT-
+$Comp
+L v4_device:L L201
+U 1 1 5F65FA9A
+P 6600 3750
+AR Path="/5F65C4D9/5F65FA9A" Ref="L201"  Part="1" 
+AR Path="/5F69D945/5F65FA9A" Ref="L301"  Part="1" 
+AR Path="/5F69D9BA/5F65FA9A" Ref="L401"  Part="1" 
+F 0 "L301" V 6790 3750 50  0000 C CNN
+F 1 "WE-7443739650068" V 6700 3650 50  0000 C CNN
+F 2 "maxim-optimizer:WE-LHMI_1365" H 6600 3750 50  0001 C CNN
+F 3 "" H 6600 3750 50  0001 C CNN
+	1    6600 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 3750 6200 3750
+Wire Wire Line
+	5200 4450 5200 4650
+Connection ~ 5200 4650
+Wire Wire Line
+	5200 4650 5350 4650
+Wire Wire Line
+	5350 4450 5350 4650
+Connection ~ 5350 4650
+Wire Wire Line
+	5350 4650 5500 4650
+Wire Wire Line
+	5500 4450 5500 4650
+Connection ~ 5500 4650
+Wire Wire Line
+	5500 4650 5600 4650
+Wire Wire Line
+	5600 4450 5600 4650
+Connection ~ 5600 4650
+Wire Wire Line
+	5600 4650 5700 4650
+Wire Wire Line
+	5700 4450 5700 4650
+Connection ~ 5700 4650
+Wire Wire Line
+	5700 4650 5800 4650
+Wire Wire Line
+	5800 4450 5800 4650
+Wire Wire Line
+	6200 3550 6200 3750
+Connection ~ 6200 3750
+Wire Wire Line
+	6200 3750 6450 3750
+Wire Wire Line
+	6200 3250 5600 3250
+Wire Wire Line
+	5600 3250 5600 3350
+Wire Wire Line
+	1950 3750 2300 3750
+Wire Wire Line
+	4700 4350 4700 4650
+Connection ~ 4700 4650
+Wire Wire Line
+	4700 4650 5200 4650
+Wire Wire Line
+	4400 3750 4400 4050
+Wire Wire Line
+	4400 4350 4400 4650
+Connection ~ 4400 3750
+Connection ~ 4400 4650
+Wire Wire Line
+	4400 3750 4900 3750
+Wire Wire Line
+	4400 4650 4700 4650
+Wire Wire Line
+	4200 3750 4200 4050
+Wire Wire Line
+	4200 4350 4200 4650
+Wire Wire Line
+	4000 3750 4000 4050
+Wire Wire Line
+	4000 4350 4000 4650
+$Comp
+L t14_passive:C C208
+U 1 1 5F66CEBD
+P 3800 4200
+AR Path="/5F65C4D9/5F66CEBD" Ref="C208"  Part="1" 
+AR Path="/5F69D945/5F66CEBD" Ref="C308"  Part="1" 
+AR Path="/5F69D9BA/5F66CEBD" Ref="C408"  Part="1" 
+F 0 "C308" V 3750 4350 40  0000 L CNN
+F 1 "100n/25V" V 3850 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 3950 4200 30  0001 C CNN
+F 3 "" H 3800 4300 60  0001 C CNN
+	1    3800 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3750 3800 4050
+Wire Wire Line
+	3800 4350 3800 4650
+Wire Wire Line
+	3500 3750 3500 4050
+Wire Wire Line
+	3500 4350 3500 4650
+Wire Wire Line
+	3300 3750 3300 4050
+Wire Wire Line
+	3300 4350 3300 4650
+Wire Wire Line
+	3100 3750 3100 4050
+Wire Wire Line
+	3100 4350 3100 4650
+Wire Wire Line
+	2900 3750 2900 4050
+Wire Wire Line
+	2900 4350 2900 4650
+Wire Wire Line
+	2700 3750 2700 4050
+Wire Wire Line
+	2700 4350 2700 4650
+Connection ~ 2700 3750
+Wire Wire Line
+	2700 3750 2900 3750
+Connection ~ 2700 4650
+Wire Wire Line
+	2700 4650 2900 4650
+Connection ~ 2900 3750
+Wire Wire Line
+	2900 3750 3100 3750
+Connection ~ 2900 4650
+Wire Wire Line
+	2900 4650 3100 4650
+Connection ~ 3100 3750
+Wire Wire Line
+	3100 3750 3300 3750
+Connection ~ 3100 4650
+Wire Wire Line
+	3100 4650 3300 4650
+Connection ~ 3300 3750
+Wire Wire Line
+	3300 3750 3500 3750
+Connection ~ 3300 4650
+Wire Wire Line
+	3300 4650 3500 4650
+Connection ~ 3500 3750
+Wire Wire Line
+	3500 3750 3800 3750
+Connection ~ 3500 4650
+Wire Wire Line
+	3500 4650 3800 4650
+Connection ~ 3800 3750
+Wire Wire Line
+	3800 3750 4000 3750
+Connection ~ 3800 4650
+Wire Wire Line
+	3800 4650 4000 4650
+Connection ~ 4000 3750
+Wire Wire Line
+	4000 3750 4200 3750
+Connection ~ 4000 4650
+Wire Wire Line
+	4000 4650 4200 4650
+Connection ~ 4200 3750
+Wire Wire Line
+	4200 3750 4400 3750
+Connection ~ 4200 4650
+Wire Wire Line
+	4200 4650 4400 4650
+Wire Wire Line
+	2500 3750 2500 4050
+Wire Wire Line
+	2500 4350 2500 4650
+$Comp
+L t14_passive:C C201
+U 1 1 5F673CE1
+P 2300 4200
+AR Path="/5F65C4D9/5F673CE1" Ref="C201"  Part="1" 
+AR Path="/5F69D945/5F673CE1" Ref="C301"  Part="1" 
+AR Path="/5F69D9BA/5F673CE1" Ref="C401"  Part="1" 
+F 0 "C301" V 2250 4350 40  0000 L CNN
+F 1 "10u/25V" V 2350 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 2450 4200 30  0001 C CNN
+F 3 "" H 2300 4300 60  0001 C CNN
+	1    2300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 3750 2300 4050
+Wire Wire Line
+	2300 4350 2300 4650
+Connection ~ 2300 4650
+Wire Wire Line
+	2300 4650 2500 4650
+Connection ~ 2500 4650
+Wire Wire Line
+	2500 4650 2700 4650
+Connection ~ 2500 3750
+Wire Wire Line
+	2500 3750 2700 3750
+Connection ~ 2300 3750
+Wire Wire Line
+	2300 3750 2500 3750
+Wire Wire Line
+	6750 3750 6850 3750
+Wire Wire Line
+	7650 3750 7650 4050
+Wire Wire Line
+	7650 4350 7650 4650
+Wire Wire Line
+	7450 3750 7450 4050
+Wire Wire Line
+	7450 4350 7450 4650
+Wire Wire Line
+	7250 3750 7250 4050
+Wire Wire Line
+	7250 4350 7250 4650
+Connection ~ 7250 3750
+Wire Wire Line
+	7250 3750 7450 3750
+Connection ~ 7250 4650
+Wire Wire Line
+	7250 4650 7450 4650
+Connection ~ 7450 3750
+Wire Wire Line
+	7450 3750 7650 3750
+Connection ~ 7450 4650
+Wire Wire Line
+	7450 4650 7650 4650
+Connection ~ 7650 3750
+Connection ~ 7650 4650
+Wire Wire Line
+	7650 4650 7850 4650
+Wire Wire Line
+	7050 3750 7050 4050
+Wire Wire Line
+	7050 4350 7050 4650
+Wire Wire Line
+	6850 3750 6850 4050
+Wire Wire Line
+	6850 4350 6850 4650
+Connection ~ 6850 4650
+Wire Wire Line
+	6850 4650 7050 4650
+Connection ~ 7050 4650
+Wire Wire Line
+	7050 4650 7250 4650
+Connection ~ 7050 3750
+Wire Wire Line
+	7050 3750 7250 3750
+Connection ~ 6850 3750
+Wire Wire Line
+	6850 3750 7050 3750
+Wire Wire Line
+	7650 3750 7850 3750
+Wire Wire Line
+	5800 4650 6850 4650
+Connection ~ 5800 4650
+$Comp
+L t14_passive:C C202
+U 1 1 5F696E50
+P 2500 4200
+AR Path="/5F65C4D9/5F696E50" Ref="C202"  Part="1" 
+AR Path="/5F69D945/5F696E50" Ref="C302"  Part="1" 
+AR Path="/5F69D9BA/5F696E50" Ref="C402"  Part="1" 
+F 0 "C302" V 2450 4350 40  0000 L CNN
+F 1 "10u/25V" V 2550 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 2650 4200 30  0001 C CNN
+F 3 "" H 2500 4300 60  0001 C CNN
+	1    2500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C203
+U 1 1 5F697068
+P 2700 4200
+AR Path="/5F65C4D9/5F697068" Ref="C203"  Part="1" 
+AR Path="/5F69D945/5F697068" Ref="C303"  Part="1" 
+AR Path="/5F69D9BA/5F697068" Ref="C403"  Part="1" 
+F 0 "C303" V 2650 4350 40  0000 L CNN
+F 1 "10u/25V" V 2750 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 2850 4200 30  0001 C CNN
+F 3 "" H 2700 4300 60  0001 C CNN
+	1    2700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C204
+U 1 1 5F697239
+P 2900 4200
+AR Path="/5F65C4D9/5F697239" Ref="C204"  Part="1" 
+AR Path="/5F69D945/5F697239" Ref="C304"  Part="1" 
+AR Path="/5F69D9BA/5F697239" Ref="C404"  Part="1" 
+F 0 "C304" V 2850 4350 40  0000 L CNN
+F 1 "10u/25V" V 2950 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 3050 4200 30  0001 C CNN
+F 3 "" H 2900 4300 60  0001 C CNN
+	1    2900 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C205
+U 1 1 5F69758E
+P 3100 4200
+AR Path="/5F65C4D9/5F69758E" Ref="C205"  Part="1" 
+AR Path="/5F69D945/5F69758E" Ref="C305"  Part="1" 
+AR Path="/5F69D9BA/5F69758E" Ref="C405"  Part="1" 
+F 0 "C305" V 3050 4350 40  0000 L CNN
+F 1 "10u/25V" V 3150 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 3250 4200 30  0001 C CNN
+F 3 "" H 3100 4300 60  0001 C CNN
+	1    3100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C206
+U 1 1 5F69782B
+P 3300 4200
+AR Path="/5F65C4D9/5F69782B" Ref="C206"  Part="1" 
+AR Path="/5F69D945/5F69782B" Ref="C306"  Part="1" 
+AR Path="/5F69D9BA/5F69782B" Ref="C406"  Part="1" 
+F 0 "C306" V 3250 4350 40  0000 L CNN
+F 1 "10u/25V" V 3350 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 3450 4200 30  0001 C CNN
+F 3 "" H 3300 4300 60  0001 C CNN
+	1    3300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C207
+U 1 1 5F6979D1
+P 3500 4200
+AR Path="/5F65C4D9/5F6979D1" Ref="C207"  Part="1" 
+AR Path="/5F69D945/5F6979D1" Ref="C307"  Part="1" 
+AR Path="/5F69D9BA/5F6979D1" Ref="C407"  Part="1" 
+F 0 "C307" V 3450 4350 40  0000 L CNN
+F 1 "10u/25V" V 3550 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 3650 4200 30  0001 C CNN
+F 3 "" H 3500 4300 60  0001 C CNN
+	1    3500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C214
+U 1 1 5F69C099
+P 6850 4200
+AR Path="/5F65C4D9/5F69C099" Ref="C214"  Part="1" 
+AR Path="/5F69D945/5F69C099" Ref="C314"  Part="1" 
+AR Path="/5F69D9BA/5F69C099" Ref="C414"  Part="1" 
+F 0 "C314" V 6800 4350 40  0000 L CNN
+F 1 "10u/25V" V 6900 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 7000 4200 30  0001 C CNN
+F 3 "" H 6850 4300 60  0001 C CNN
+	1    6850 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C215
+U 1 1 5F69C4C2
+P 7050 4200
+AR Path="/5F65C4D9/5F69C4C2" Ref="C215"  Part="1" 
+AR Path="/5F69D945/5F69C4C2" Ref="C315"  Part="1" 
+AR Path="/5F69D9BA/5F69C4C2" Ref="C415"  Part="1" 
+F 0 "C315" V 7000 4350 40  0000 L CNN
+F 1 "10u/25V" V 7100 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 7200 4200 30  0001 C CNN
+F 3 "" H 7050 4300 60  0001 C CNN
+	1    7050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C216
+U 1 1 5F69C649
+P 7250 4200
+AR Path="/5F65C4D9/5F69C649" Ref="C216"  Part="1" 
+AR Path="/5F69D945/5F69C649" Ref="C316"  Part="1" 
+AR Path="/5F69D9BA/5F69C649" Ref="C416"  Part="1" 
+F 0 "C316" V 7200 4350 40  0000 L CNN
+F 1 "10u/25V" V 7300 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 7400 4200 30  0001 C CNN
+F 3 "" H 7250 4300 60  0001 C CNN
+	1    7250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C217
+U 1 1 5F69C7C9
+P 7450 4200
+AR Path="/5F65C4D9/5F69C7C9" Ref="C217"  Part="1" 
+AR Path="/5F69D945/5F69C7C9" Ref="C317"  Part="1" 
+AR Path="/5F69D9BA/5F69C7C9" Ref="C417"  Part="1" 
+F 0 "C317" V 7400 4350 40  0000 L CNN
+F 1 "10u/25V" V 7500 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 7600 4200 30  0001 C CNN
+F 3 "" H 7450 4300 60  0001 C CNN
+	1    7450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C218
+U 1 1 5F69C9A2
+P 7650 4200
+AR Path="/5F65C4D9/5F69C9A2" Ref="C218"  Part="1" 
+AR Path="/5F69D945/5F69C9A2" Ref="C318"  Part="1" 
+AR Path="/5F69D9BA/5F69C9A2" Ref="C418"  Part="1" 
+F 0 "C318" V 7600 4350 40  0000 L CNN
+F 1 "10u/25V" V 7700 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C2012m" V 7800 4200 30  0001 C CNN
+F 3 "" H 7650 4300 60  0001 C CNN
+	1    7650 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C209
+U 1 1 5F69CED4
+P 4000 4200
+AR Path="/5F65C4D9/5F69CED4" Ref="C209"  Part="1" 
+AR Path="/5F69D945/5F69CED4" Ref="C309"  Part="1" 
+AR Path="/5F69D9BA/5F69CED4" Ref="C409"  Part="1" 
+F 0 "C309" V 3950 4350 40  0000 L CNN
+F 1 "100n/25V" V 4050 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 4150 4200 30  0001 C CNN
+F 3 "" H 4000 4300 60  0001 C CNN
+	1    4000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C210
+U 1 1 5F69D10B
+P 4200 4200
+AR Path="/5F65C4D9/5F69D10B" Ref="C210"  Part="1" 
+AR Path="/5F69D945/5F69D10B" Ref="C310"  Part="1" 
+AR Path="/5F69D9BA/5F69D10B" Ref="C410"  Part="1" 
+F 0 "C310" V 4150 4350 40  0000 L CNN
+F 1 "100n/25V" V 4250 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 4350 4200 30  0001 C CNN
+F 3 "" H 4200 4300 60  0001 C CNN
+	1    4200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_passive:C C211
+U 1 1 5F69D3A3
+P 4400 4200
+AR Path="/5F65C4D9/5F69D3A3" Ref="C211"  Part="1" 
+AR Path="/5F69D945/5F69D3A3" Ref="C311"  Part="1" 
+AR Path="/5F69D9BA/5F69D3A3" Ref="C411"  Part="1" 
+F 0 "C311" V 4350 4350 40  0000 L CNN
+F 1 "100n/25V" V 4450 4300 40  0000 L CNN
+F 2 "t14_standardSMD:C1608m" V 4550 4200 30  0001 C CNN
+F 3 "" H 4400 4300 60  0001 C CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+Text Notes 6250 3850 0    50   ~ 0
+680nH/1.2mR
+Text Label 6250 3750 0    50   ~ 0
+sw
+$EndSCHEMATC
