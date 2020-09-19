@@ -277,4 +277,26 @@ Text Label 4800 3900 0    50   ~ 0
 PV2-
 Text Label 4800 5300 0    50   ~ 0
 PV1-
+$Comp
+L t14_mkz:Item Item101
+U 1 1 5F662D76
+P 10150 5750
+F 0 "Item101" H 10222 5794 50  0000 L CNN
+F 1 "Item" H 10222 5703 50  0000 L CNN
+F 2 "t14_team14-logo:team14-logo-icon-0.47" H 10050 5750 60  0001 C CNN
+F 3 "" H 10150 5850 60  0001 C CNN
+	1    10150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L t14_mkz:Item Item102
+U 1 1 5F66302B
+P 10150 5950
+F 0 "Item102" H 10222 5994 50  0000 L CNN
+F 1 "Item" H 10222 5903 50  0000 L CNN
+F 2 "t14_team14-logo:team14-logo-schrift-0.47" H 10050 5950 60  0001 C CNN
+F 3 "" H 10150 6050 60  0001 C CNN
+	1    10150 5950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

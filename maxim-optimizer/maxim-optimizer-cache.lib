@@ -40,6 +40,18 @@ X ~ 1 -150 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# t14_mkz_Item
+#
+DEF t14_mkz_Item Item 0 40 Y N 1 F N
+F0 "Item" 0 100 50 H V R CNN
+F1 "t14_mkz_Item" 100 100 50 H V L CNN
+F2 "" -100 0 60 H I C CNN
+F3 "" 0 100 60 H I C CNN
+DRAW
+T 0 -50 0 60 0 0 0 Item Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # t14_passive_C
 #
 DEF t14_passive_C C 0 10 N Y 1 F N
