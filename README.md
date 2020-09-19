@@ -8,7 +8,8 @@ The outputs of the 3 step down controllers are connected in series.
 
 This kind of optimizer maximizes the output power for each cell array individually, and works perfectly if some solar modules are shaded partially in a string of many modules. 
 
+![voltage and current limits](rendering/v-i-limits.png)
+
 ![2D rendering](rendering/rendering-2d.png)
 
 ![3D rendering](rendering/rendering-3d.png)
-
